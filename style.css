@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --font-primary: "Inter", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+}
+
 body {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-primary);
   background-color: #020605;
 }
 
@@ -28,7 +33,7 @@ body {
 }
 
 .nav-bar {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 100;
   width: 100%;
@@ -227,4 +232,138 @@ input::placeholder {
   width: auto;
   height: auto;
   object-fit: contain;
+}
+
+/* Built-for-section */
+
+.built-for-section {
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 144px;
+}
+
+.built-for-content {
+  padding-top: 48px;
+  color: #fff;
+  text-align: center;
+}
+
+.built-for-title {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 600;
+  letter-spacing: -0.8px;
+}
+
+.built-for-subtext {
+  font: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.built-for-card-container {
+  display: flex;
+  gap: 24px;
+}
+
+.card-1,
+.card-2 {
+  border: solid 0.7px rgba(255, 255, 255, 0.07);
+  margin-top: 48px;
+  color: white;
+  border-radius: 20px;
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-bottom: 64px;
+}
+
+.card-badge {
+  color: #18e299;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  margin-bottom: 16px;
+  font-family: var(--font-mono);
+}
+
+.card-title {
+  font-size: 24px;
+  line-height: 31.2px;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  color: #fff;
+}
+
+.card-content {
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 130px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.built-svg-container {
+  height: 200px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.built-for-card-container-single {
+  border: solid 0.7px rgba(255, 255, 255, 0.07);
+  margin-top: 24px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-3 {
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 64px;
+}
+
+.card-badge-3,
+.card-title-3,
+.card-content-3 {
+  text-align: center;
+}
+
+.card-badge-3 {
+  color: #18e299;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  margin-bottom: 16px;
+  font-family: var(--font-mono);
+}
+
+.card-title-3 {
+  font-size: 24px;
+  line-height: 31.2px;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.card-content-3 {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0px 300px;
+}
+
+.built-vdo-container {
+  margin-top: 50px;
+}
+
+/* Enterprise-reinvention section */
+
+.enterprise-reinvention {
+  background-color: #151616;
+  height: 800px;
+  margin-top: 144px;
 }
