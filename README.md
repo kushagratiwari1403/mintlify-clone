@@ -15,13 +15,13 @@ I have recreated the landing page of Mintlify.com using HTML and CSS. This assig
 
 I have built the core structure of the homepage, including:
 
-* **Navigation Bar:** Logo, menu links, and CTA buttons.
-* **Hero Section:** Announcement badge, headline, and email input.
-* **Social Proof:** Grid of trusted client logos (Anthropic, Microsoft, etc.).
-* **Feature Grid:** "Built for Intelligence" cards with video and image assets.
-* **Enterprise Section:** Partnership details and security compliance.
-* **Customer Stories:** Case study cards for Perplexity, X, and Kalshi.
-* **Footer:** Complete sitemap, social links, and system status indicator.
+* **Navigation Bar** 
+* **Hero Section** 
+* **Social Proof** 
+* **Feature Grid** 
+* **Enterprise Section**
+* **Customer Stories**
+* **Footer**
 
 ---
 
@@ -31,11 +31,6 @@ I have built the core structure of the homepage, including:
 Used Google Fonts to match the brand identity:
 * **Inter:** Primary sans-serif font.
 * **Geist Mono:** For monospaced labels and badges.
-
-### Colors Used
-* **Background:** `#020605` (Main Theme)
-* **Primary Text:** `#edecec`
-* **Accents:** Branding colors via SVGs and specific button styles.
 
 ---
 
