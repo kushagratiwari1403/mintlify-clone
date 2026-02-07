@@ -1,52 +1,54 @@
-Mintlify Landing Page Clone
-I have recreated the landing page of Mintlify.com using HTML and CSS. This project focuses on capturing the modern SaaS aesthetic with high-quality layouts and a professional dark-themed UI.
+# Mintlify Landing Page Clone Assignment
 
-Live Link
-👉 View the Live Website: https://mintlify-clone-eta.vercel.app/
+I have recreated the landing page of Mintlify.com using HTML and CSS. This assignment focuses on modern SaaS UI design, layout precision, and dark-themed aesthetics.
 
-📁 GitHub Repository: https://github.com/kushagratiwari1403/mintlify-clone
+---
 
-Sections Recreated
+## Live Link
+
+👉 **View the Live Website:** [https://mintlify-clone-eta.vercel.app/](https://mintlify-clone-eta.vercel.app/)  
+📁 **GitHub Repository:** [https://github.com/kushagratiwari1403/mintlify-clone](https://github.com/kushagratiwari1403/mintlify-clone)
+
+---
+
+## Sections Recreated
+
 I have built the core structure of the homepage, including:
 
-Navigation Bar: Wordmark logo, interactive links, and primary/secondary CTAs.
+* **Navigation Bar:** Logo, menu links, and CTA buttons.
+* **Hero Section:** Announcement badge, headline, and email input.
+* **Social Proof:** Grid of trusted client logos (Anthropic, Microsoft, etc.).
+* **Feature Grid:** "Built for Intelligence" cards with video and image assets.
+* **Enterprise Section:** Partnership details and security compliance.
+* **Customer Stories:** Case study cards for Perplexity, X, and Kalshi.
+* **Footer:** Complete sitemap, social links, and system status indicator.
 
-Hero Section: Announcement badge, main headline, subtext, and email lead capture.
+---
 
-Client Logo Cloud: Showcase of trusted brands like Anthropic, Microsoft, and PayPal.
+## Design Details
 
-"Built for Intelligence" Grid: Feature cards showcasing AI capabilities and video integration.
+### Fonts
+Used Google Fonts to match the brand identity:
+* **Inter:** Primary sans-serif font.
+* **Geist Mono:** For monospaced labels and badges.
 
-Enterprise Section: Professional layout for enterprise-grade services and security.
+### Colors Used
+* **Background:** `#020605` (Main Theme)
+* **Primary Text:** `#edecec`
+* **Accents:** Branding colors via SVGs and specific button styles.
 
-Customer Success Grid: Card-based layout for industry case studies.
+---
 
-Comprehensive Footer: Organized link columns, social icons, and theme controls.
+## Technology Used
 
-Design Details
-Fonts
-Used Google Fonts for a premium look:
+* **HTML5:** Semantic structure (`nav`, `section`, `footer`).
+* **CSS3:**
+  * **Flexbox:** For alignment and navigation.
+  * **CSS Grid:** For the multi-column footer and customer cards.
+  * **Variables:** For theme-wide color consistency.
+* **Vercel:** For deployment and hosting.
 
-Inter: Primary font for body and headings.
+---
 
-Geist Mono: Monospaced font for badges and technical labels.
-
-Colors Used
-Main Background: #020605
-
-Primary Text: #edecec
-
-Accents: Branding colors integrated via SVGs and specific button styles.
-
-Technology Used
-HTML5: Semantic structure for better accessibility.
-
-CSS3: * Flexbox: For alignment of nav items and hero content.
-
-CSS Grid: Used for complex layouts in the Customer and Footer sections.
-
-Variables: For consistent theme management.
-
-Vercel: For hosting and live deployment.
-
-[!NOTE] Responsiveness: This project is currently optimized for Desktop (1440px). Mobile and tablet responsiveness are not yet implemented.
+> [!IMPORTANT]
+> **Note:** This project is currently optimized for **Desktop (1440px)**. Mobile responsiveness is not implemented in this version.
